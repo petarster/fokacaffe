@@ -1,0 +1,389 @@
+body {
+	background-color: transparent;
+}
+
+p {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 1em;
+	color: #333;
+	line-height: 1.6em;		
+}
+
+img {
+	max-width: 100%;	
+	height: auto;
+}
+
+a { 
+  color: white;
+	text-decoration: none; 
+	-webkit-transition: background-color .2s linear, color .2s linear;
+	transition: background-color .2s linear, color .2s linear;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #b6946c;
+}
+
+.logo {
+	margin: -6px auto;
+}
+
+.margin-top {
+	margin-top: 53px;
+}
+
+/* navigacioni meni */
+
+.header-nav {
+	padding: 3em 0em;
+}
+
+.header-nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.header-nav ul li {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+.header-nav ul li a {
+	font-family: 'Roboto', sans-serif;
+	position: relative;    
+	display: inline-block;
+	margin: 10px 8px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.header-nav ul li a:hover {
+	color: #d6ac8a;
+}
+
+.header-nav ul li .current {
+	color: #d6ac8a;
+}
+
+/* pozadina sa tekstom na index stranici */
+
+.pozadina {
+	background: url(images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+  	-webkit-background-size: cover;
+	text-align: center;
+}
+
+.pozadina-info h1 {
+	font-family: 'Source Serif Pro', serif;
+  	color: #f8f5f1;
+  	font-size: 2em;
+  	line-height: 1.4em;
+  	text-align: center;
+  	font-weight: 400;
+	margin-top: 50px;
+	letter-spacing: 1px;
+	text-shadow:  1px 2px black;
+}
+
+.pozadina-info h2 {	
+  	font-family: 'Source Serif Pro', serif;
+  	color: white;
+  	font-size: 1.6em;
+  	line-height: 1.4em;
+	margin-top: 30px;
+  	text-align: center;
+	font-weight: 400;
+	text-shadow:  1px 2px black;
+}
+
+.pozadina-info h2 span {   
+  	font-family: 'Source Serif Pro', serif;
+  	color: white;
+  	font-size: 1em;
+  	display: block;
+  	margin-top: 0;
+  	padding-bottom: 0;
+	font-weight: 400;
+	text-shadow:  1px 2px black;
+}
+
+.adresa {
+	font-family: 'Source Serif Pro', serif;
+	color: white;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	text-align: center;
+	font-weight: 400;
+	text-shadow:  1px 2px black;
+}
+
+.adresa1 {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.mreze {
+	color: white;
+	font-size: 1.7em;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	clear: both;	
+}
+
+.ikonica {
+	margin-left: 9px;
+}
+
+/* deo Ukratko*/
+.ukratko {
+	margin-top: 40px;
+}
+
+.ukratko-slika {
+	margin-top: 48px;
+	border: 3px solid white;
+	width: 90%;
+}
+
+
+.ukratko-text {	
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    text-align: center;
+	margin-top: 95px;
+	border-right: 4px solid #ae895c;
+	padding: 35px;
+}
+
+.ukratko-text2 {	
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    text-align: center;
+	margin-top: 130px;
+	border-right: 4px solid #ae895c;
+	padding: 35px;
+}
+
+.ukratko-text3 {	
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    text-align: center;
+	margin-top: 150px;
+	border-right: 4px solid #ae895c;
+	padding: 35px;
+}
+
+/* buttons */
+
+.btn {
+	font-family:'Roboto', sans-serif;
+	letter-spacing: 2px;
+	font-size: 1.2em;	
+	font-weight: 700;
+	color: #b1845d;
+	margin-top: 0;
+	border: none;
+	background-color: transparent;	
+	padding: 12px 20px;
+	-webkit-transition: all .35s; 
+	transition: all .35s;
+	border-radius: 0;
+}
+
+.prvi-btn {
+	background-color: #e56c00;
+	color: white;
+	border: 1px solid #e56c000;
+	margin-top: 45px;
+	border-radius: 3px;
+}
+
+.prvi-btn:hover {
+	background-color: #a04c01;
+	color: white;
+}
+
+/* responzivni dizajn za manje ekrane */
+
+@media (max-width:2560px){
+
+.pozadina {
+	background: url(images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+  	-webkit-background-size: cover; 
+	text-align: center;
+	min-height: 1065px;
+}
+
+}
+
+@media (max-width:1920px){
+
+.pozadina {
+	background: url(images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+  	-webkit-background-size: cover;
+	text-align: center;
+	min-height: 888px;
+}
+
+}
+
+@media (max-width:1600px){
+
+.pozadina {
+	background: url(images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+  	-webkit-background-size: cover;
+	text-align: center;
+	min-height: 799px;
+}
+
+}
+
+@media (max-width:1199px) and (min-width:992px) {
+	.ukratko-text {	
+		margin-top: 80px;
+		padding: 15px;
+	}
+	
+	.ukratko-text2 {	
+		margin-top: 100px;
+		padding: 15px;
+	}
+	
+	.ukratko-text3 {
+		margin-top: 120px;
+		padding: 15px;
+	}
+	}
+
+	
+@media (max-width:991px) and (min-width:768px) {
+	.ukratko-text {	
+		font-size: 1.1em;
+		line-height: 1.1em;
+		margin-top: 70px;
+		padding: 15px;
+	}
+	
+	.ukratko-text2 {
+		font-size: 1.1em;
+		line-height: 1.1em;	
+		margin-top: 75px;
+		padding: 15px;
+	}
+	
+	.ukratko-text3 {
+		font-size: 1.1em;
+		line-height: 1.1em;
+		margin-top: 80px;
+		padding: 15px;
+	}
+	}
+
+@media (max-width:767px){
+
+.header-nav ul li {
+	display: block;
+	float: none;
+}
+
+.header-nav ul li a {
+	border-right: none;
+	color: #fff;
+}
+
+.header-nav ul {
+	position: absolute;
+	margin: 0;
+	padding: 2% 0;
+	z-index: 999;
+	width: 93%;
+	display: none;
+	text-align: center;
+	background: #ae895c;
+	opacity: 0.9;
+	left: 2em;
+	top: 3em;
+}
+
+.header-nav span.menu {
+	display: block;
+	background: none;
+	position: absolute;
+	top: 18px;
+	right: 30px;
+}
+
+.header-nav span.menu:before {
+	content: url(images/menu.png);
+	color: #FFF;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	text-align: right;
+	cursor: pointer;
+}
+
+.pozadina {
+	min-height: 1080px;
+}
+
+.adresa1 {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.ukratko-text {	
+	margin-top: 70px;
+	padding: 15px;
+}
+
+.ukratko-text2 {	
+	margin-top: 90px;
+	padding: 15px;
+}
+
+.ukratko-text3 {
+	margin-top: 110px;
+	padding: 15px;
+}
+
+}
+
+@media (max-width:480px){
+
+.header-nav ul {
+	width: 88%;
+}
+
+.logo {
+	margin: 10px auto;
+}
+
+}
+
+@media (max-width:320px){
+
+.header-nav {
+	padding: 1em 0em;
+}
+
+.header-nav ul {
+	width: 82%;
+}
+
+}
