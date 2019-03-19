@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="sr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
 				<span class="menu"></span>
 					 <ul>
             <li><a href="index.html" class="current">početna</a></li>
-						<li><a href="#">meni</a></li>
+						<li><a href="menu.html">meni</a></li>
 						<li><a href="#">galerija</a></li>
 						<li><a href="#">saznaj više</a></li>
 						<li><a href="#">o nama</a></li>
@@ -61,7 +61,19 @@
           <h1> Ovde počinje tvoj dan! </h1>
 				  <h2>Ako voliš:
           <span>mirisnu kafu, slasna peciva, ukusne poslastice!</span></h2>
-					<a href="#" class="btn prvi-btn">Ponuda Dana</a>
+		  
+					<a href="#" class="btn prvi-btn login" >Login</a>
+					
+					<!-- dodao petar --> 
+				    <form action="#" style="display:none" id="login-form" class="login1 login-container">
+					  <label for="username">Your username:</label>
+					  <input type="text" name="username" id="username" required>
+					  <label for="pass">Your password:</label> 
+					  <input type="password" name="pass" id="pass" required><br>
+					  <button type="submit" class="btn main-btn submit btn-primary btn-block btn-large"">Submit</button>
+				  </form>
+				   <!-- kraj dodao petar -->
+				  
 			</div>
 
 				 <!-- kratko o nasim uslugama -->
@@ -108,6 +120,8 @@
 		</div>
 		
 	</div>
+	
+<script src="login.js"></script>
     
 	<!-- Boostrap JS -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
