@@ -65,7 +65,29 @@ a:hover {
   margin-bottom: 0;
 }
 
-
+.button1 {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #5d8ab1;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  margin:auto;
+  display:block;
+  font-family:'Roboto', sans-serif;
+  font-weight:700;
+}
+.button:hover {
+  background-color: transparent;
+  border-color: #fff;
+  transition: all .1s ease-in-out;
+}
 
 
 .login-header {
@@ -79,8 +101,9 @@ a:hover {
 }
 
 .login-container {
-  background: #ebebeb;
+  background: #b1845d;
   padding: 12px;
+  border-radius:3px;
 }
 
 /* p tag */
