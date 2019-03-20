@@ -1,29 +1,35 @@
 <!DOCTYPE HTML>
 <html lang="sr">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fika cafe - Ovde počinje tvoj dan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		content="Pored vrhunske hrane i pića atmosferu oplemenjuje nesvakidašnji raspored sedenja. " />
+	<meta name="keywords" content="kafic beograd, kafic beograd centar,kafic beograd 00 24, kafic beograd dorcol" />
+	<title>Fika cafe - Ovde počinje tvoj dan</title>
 
-<!-- Bootstrap CSS -->
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min1.css" rel="stylesheet">
 
-<!-- Naš CSS -->
-<link href="style.css" rel="stylesheet">
+	<!-- Naš CSS -->
+	<link href="style.css" rel="stylesheet">
 
-<!-- Fontovi -->
-<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- Fontovi -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-<!-- jQuery 1.11.0 -->
-<script src="jquery-1.11.0.js"></script>
+	<!-- jQuery 1.11.0 -->
+	<script src="jquery-1.11.0.js"></script>
 
 </head>
+
 <body>
-    
+
 	<div class="pozadina">
 
 		<div class="container">
@@ -31,70 +37,87 @@
 			<!-- header -->
 			<div class="header-nav">
 				<span class="menu"></span>
-					 <ul>
-            <li><a href="index.html" class="current">početna</a></li>
-						<li><a href="menu.html">meni</a></li>
-						<li><a href="#">galerija</a></li>
-						<li><a href="#">saznaj više</a></li>
-						<li><a href="#">o nama</a></li>
-						<li><a href="#">kontakt</a></li>
-					 </ul>
-			 </div>
-			 <!-- /header -->
+				<ul>
+					<li><a href="index.html" class="current">početna</a></li>
+					<li><a href="menu.html">meni</a></li>
+					<li><a href="galerija.html">galerija</a></li>
+					<li><a href="vise.html">saznaj više</a></li>
+					<li><a href="kontakt.html">kontakt</a></li>
+					<li><a href="#">
+						<form action="#" method="post" class="last">
+							<fieldset>
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="display" value="1" />
+								<button><i class="fas fa-shopping-cart"></i></button>
+							</fieldset>
+						</form>
+					</a></li>
+			</ul>
+		</div>
+			<!-- /header -->
 
-			 <!-- scripta nav -->
-			 <script>
-					$( "span.menu" ).click(function() {
-					$( ".header-nav ul" ).slideToggle(300, function() {
+			<!-- scripta nav -->
+			<script>
+				$("span.menu").click(function () {
+					$(".header-nav ul").slideToggle(300, function () {
 					});
-					});
-			 </script>
+				});
+			</script>
 
-      	<!-- logo -->
-			 <div class="logo">
+			<!-- logo -->
+			<div class="logo">
 				<a href="index.html">
-                <img src="images/logo.png" alt="fika-cafe-beograd-logo"></a>
-			 </div>
-
-			 <!-- informacije + poziv na akciju -->
-			 <div class="pozadina-info">
-          <h1> Ovde počinje tvoj dan! </h1>
-				  <h2>Ako voliš:
-          <span>mirisnu kafu, slasna peciva, ukusne poslastice!</span></h2>
-		  
-					<a href="#" class="btn prvi-btn login" >Login</a>
-					
-					<!-- dodao petar --> 
-				    <form action="#" style="display:none" id="login-form" class="login1 login-container">
-					  <label for="username">Your username:</label>
-					  <input type="text" name="username" id="username" required>
-					  <label for="pass">Your password:</label> 
-					  <input type="password" name="pass" id="pass" required><br>
-					  <button type="submit" class="button1 submit">Submit</button>
-				  </form>
-				   <!-- kraj dodao petar -->
-				  
+					<img src="images/logo.png" alt="fika-cafe-beograd-logo"></a>
 			</div>
 
-				 <!-- kratko o nasim uslugama -->
-				 <div class="ukratko row">
+			<!-- informacije + poziv na akciju -->
+			<div class="pozadina-info">
+				<h1> Ovde počinje tvoj dan! </h1>
+				<h2>Ako voliš:
+					<span>mirisnu kafu, slasna peciva, ukusne poslastice!</span></h2>
 
-						<div class="col-md-6">
-								<p class="ukratko-text">Sve nas spaja kafa, zar ne? Uživaj u nezaboravnom ukusu neke od naših kafi. Probaj ih sve u svom omiljenom kutku ili izaberi neku za poneti. Nije loše kad si u žurbi ili želiš da se počastiš nakon napornog dana.</p>
-								<p class="ukratko-text2">U našem prostoru uvek ćeš pronaći mir - za razgovor sa prijatljima, jutarnje listanje dnevne štampe ili završavanje radnih obaveza. Uz prijatnu muziku i naše ljubazne kolege, na raspolaganju ti je i besplatan WiFi internet.</p>
-								<p class="ukratko-text3">Toliko je mnogo različitih napitaka koje spremamo. Ali svima je zajednička vrhunska kafa koja nam stiže direktno iz Brazila. Uvek sveža i mirisna. Ali, znaš li da postoji toliko mnogo priča o kafi? Saznaj ih ovde.</p>
-						 </div>
+				<a href="#" class="btn prvi-btn login">Login</a>
 
-				 		<div class="col-md-6"> 
-							<a href="meni.html"><img src="images/coffee1.jpg" class="ukratko-slika" alt="cafe-fika-beograd-meni-ponuda"/></a>
-							<a href="galerija.html"><img src="images/coffee2.jpg" class="ukratko-slika" alt="cafe-fika-beograd-galerija-prostor-unutra-basta"/></a>
-							<a href="saznajvise.html"><img src="images/coffee3.jpg" class="ukratko-slika" alt="cafe-fika-beograd-zanimljivosti-o-kafi"/></a>
-						</div>
-						
+				<!-- dodao petar -->
+				<form action="#" style="display:none" id="login-form" class="login1 login-container">
+					<label for="username">Your username:</label>
+					<input type="text" name="username" id="username" required>
+					<label for="pass">Your password:</label>
+					<input type="password" name="pass" id="pass" required><br>
+					<button type="submit" class="button1 submit">Submit</button>
+				</form>
+				<!-- kraj dodao petar -->
+
+			</div>
+
+			<!-- kratko o nasim uslugama -->
+			<div class="ukratko row">
+
+				<div class="col-md-6">
+					<p class="ukratko-text">Sve nas spaja kafa, zar ne? Uživaj u nezaboravnom ukusu neke od naših kafi. Probaj ih
+						sve u svom omiljenom kutku ili izaberi neku za poneti. Nije loše kad si u žurbi ili želiš da se počastiš
+						nakon napornog dana.</p>
+					<p class="ukratko-text2">U našem prostoru uvek ćeš pronaći mir - za razgovor sa prijatljima, jutarnje listanje
+						dnevne štampe ili završavanje radnih obaveza. Uz prijatnu muziku i naše ljubazne kolege, na raspolaganju ti
+						je i besplatan WiFi internet.</p>
+					<p class="ukratko-text3">Toliko je mnogo različitih napitaka koje spremamo. Ali svima je zajednička vrhunska
+						kafa koja nam stiže direktno iz Brazila. Uvek sveža i mirisna. Ali, znaš li da postoji toliko mnogo priča o
+						kafi? Saznaj ih ovde.</p>
 				</div>
 
-				 
-				
+				<div class="col-md-6">
+					<a href="meni.html"><img src="images/coffee1.jpg" class="ukratko-slika"
+							alt="cafe-fika-beograd-meni-ponuda" /></a>
+					<a href="galerija.html"><img src="images/coffee2.jpg" class="ukratko-slika"
+							alt="cafe-fika-beograd-galerija-prostor-unutra-basta" /></a>
+					<a href="saznajvise.html"><img src="images/coffee3.jpg" class="ukratko-slika"
+							alt="cafe-fika-beograd-zanimljivosti-o-kafi" /></a>
+				</div>
+
+			</div>
+
+
+
 			<!-- linkovi ka drustvenim mrezama -->
 			<!-- kontakt podaci -->
 			<div class="adresa">
@@ -110,21 +133,22 @@
 				</div>
 			</div>
 
-        	<div class="mreze">
-            <a href="#" class="ikonica"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="ikonica"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="ikonica"><i class="fab fa-twitter"></i></a>
-					</div>
-					
-			 
+			<div class="mreze">
+				<a href="#" class="ikonica"><i class="fab fa-facebook"></i></a>
+				<a href="#" class="ikonica"><i class="fab fa-instagram"></i></a>
+				<a href="#" class="ikonica"><i class="fab fa-twitter"></i></a>
+			</div>
+
+
 		</div>
-		
+
 	</div>
-	
-<script src="login.js"></script>
-    
+
+	<script src="login.js"></script>
+
 	<!-- Boostrap JS -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
