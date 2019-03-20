@@ -634,3 +634,167 @@ a:hover {
 }
 
 }
+
+
+/*Neli Stil*/
+body {position: relative;}
+
+  /* efekat za jq za taster:regisrtuj se*/
+  .test + .tooltip > .tooltip-inner {
+                        background: orange;
+                        color: black;
+                        border:1px solid black; }
+ /*--efekti za section--*/
+.section {
+        padding-top:10px;
+        height:100%;
+        color: #f8f5f1;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content:center;
+            align-content: space-between;
+            align-content: space-around;
+            align-content: space-evenly;
+                       }
+.section h1:hover:after { width: 100%; }
+
+.section h1{ position: relative;
+             padding-bottom:10px; }
+
+.section h1::after {content: '';
+                      position: absolute;
+                      bottom: 0;
+                      left: 0;
+                      width: 0%;
+                      border-bottom: 4px solid orange;
+                      transition: 0.4s;
+                      -webkit-transition:0.4s;
+                      -moz-transition:0.4s;  }
+.section p {  color:#f8f5f1;}
+.section img {
+    border:2px solid #f8f5f1;
+}
+
+#section1 h3{ padding-bottom:40px;
+              padding-top:20px;}
+
+.section h3:hover { text-shadow:1px 1px 1px black;}
+
+i {color: #f8f5f1; }
+
+         /*--efekti za section2--*/
+
+#section2 h3{ padding-top:30px;}
+
+#section2 img { width:300px;
+                height: 400px; }
+
+           /*--efekti za section3--*/
+
+#section3 h3{ padding-top:30px;}
+
+#section3 h3:hover { text-shadow:1px 1px 1px black;}
+
+                         /*--efekti za section4--*/
+
+#section4 h3{ padding-top:30px;}
+                       /*--efekti za section5--*/
+
+#section5 img {
+    width:300px;
+    height:350px;
+    margin-bottom: 20px;}
+
+#section5 { margin-bottom: 20px;
+            align-items: center;
+            justify-content: space-between;
+            align-content: space-between;
+            align-content: space-around;
+            }
+#section5 .btn button{
+            background: #AE895C;
+                   color:#660000;
+                   font-size:1.25em;
+                   border:1px solid #660000;
+                   margin-bottom: 10px; }
+
+#section5 button { background: #AE895C;
+                   color:#660000;
+                   font-size:1.25em;
+                   border:1px solid #f8f5f1;
+                   margin-bottom: 10px; }
+
+#section5 i {color: #660000;  }
+
+#section5 button:hover { background:#660000;
+                        color: #AE895C;
+                        margin-bottom: 10px;
+                        border:1px solid #f8f5f1; }
+
+#section5 button i:hover{color:#f8f5f1;
+                          margin-bottom: 10px; }
+#section5 p{ color:#f8f5f1; }
+
+.flip-card { background-color: transparent;
+             margin-bottom: 20px;
+              width: 300px;
+              height: 350px;
+              border-radius: 2px;
+              border: 1px solid #f8f5f1;
+              perspective: 1000px;}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner { position: relative;
+                      width: 300px;
+                      height: 400px;
+                      border-radius: 2px;
+                      margin-bottom: 20px;
+                      text-align: center;
+                      transition: transform 0.8s;
+                      -webkit-transition:transform 0.8s;
+                      -moz-transition: transform 0.8s;
+                      transform-style: preserve-3d;
+                      -webkit-transform-style: preserve-3d;
+                      -moz-transform-style: preserve-3d;}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner { border-radius: 2px;
+                                    margin-bottom: 20px;
+                                    transform: rotateY(180deg);
+                                  -webkit-transform: rotateY(180deg);
+                                  -moz-transform: rotateY(180deg); }
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back { position: absolute;
+                                    margin-bottom: 20px;
+                                      width: 300px;
+                                      height: 350px;
+                                      border-radius: 2px;
+                                      backface-visibility: hidden; }
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {background-color: gray;
+                 color: black;
+                 border-radius: 2px;
+                 margin-bottom: 20px;  }
+
+/* Style the back side */
+.flip-card-back {background-color: #AE895C;
+                  color: #660000;
+                  margin-bottom: 20px;
+                  font-size:18px;
+                  padding:10px;
+                  border-radius: 2px;
+                  transform: rotateY(180deg);
+                  -webkit-transform: rotateY(180deg);
+                  -moz-transform: rotateY(180deg);  }
+
+@media (max-width:576px){
+   .flip-card,.flip-card-inner,.flip-card-front,.flip-card-back,.section .img-responsive {
+        margin:0 auto;  }
+      }
+@media (max-width:700px){
+    .flip-card,.flip-card-inner,.flip-card-front,.flip-card-back,.section .img-responsive {
+        margin:0 auto;  }
+ }
