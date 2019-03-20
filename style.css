@@ -409,20 +409,7 @@ a:hover {
 
 /* buttons */
 
-.btn {
-	font-family:'Roboto', sans-serif;
-	letter-spacing: 2px;
-	font-size: 1.2em;	
-	font-weight: 700;
-	color: #b1845d;
-	margin-top: 0;
-	border: none;
-	background-color: transparent;	
-	padding: 12px 20px;
-	-webkit-transition: all .35s; 
-	transition: all .35s;
-	border-radius: 0;
-}
+
 
 .prvi-btn {
 	background-color: #e56c00;
