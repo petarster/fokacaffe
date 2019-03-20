@@ -227,7 +227,7 @@ a:hover {
 	color: white;
 	width: 82%;
 	margin-bottom: 27px;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 	padding-top: 14px;  
@@ -300,7 +300,6 @@ a:hover {
 }
 
 
-
 .pozadina-info h1 {
 	font-family: 'Source Serif Pro', serif;
   	color: #f8f5f1;
@@ -360,6 +359,12 @@ a:hover {
 
 .ikonica {
 	margin-left: 9px;
+	
+}
+
+.fab.fa-facebook:hover, .fab.fa-instagram:hover, .fab.fa-twitter:hover {
+	color: #d6ac8a;
+	transition: all .2s ease-in-out;
 }
 
 /* deo Ukratko*/
@@ -380,7 +385,7 @@ a:hover {
     font-size: 1.3em;
     line-height: 1.3em;
     text-align: center;
-	margin-top: 95px;
+	margin-top: 115px;
 	border-right: 4px solid #ae895c;
 	padding: 35px;
 }
@@ -391,7 +396,7 @@ a:hover {
     font-size: 1.3em;
     line-height: 1.3em;
     text-align: center;
-	margin-top: 130px;
+	margin-top: 185px;
 	border-right: 4px solid #ae895c;
 	padding: 35px;
 }
@@ -402,14 +407,29 @@ a:hover {
     font-size: 1.3em;
     line-height: 1.3em;
     text-align: center;
-	margin-top: 150px;
+	margin-top: 200px;
 	border-right: 4px solid #ae895c;
 	padding: 35px;
 }
 
 /* buttons */
 
-
+.dugme-frontpage {
+	font-family:'Roboto', sans-serif;
+	letter-spacing: 2px;
+	font-size: 1.2em;	
+	font-weight: 700;
+	color: #b1845d;
+	margin-top: 0;
+	border: none;
+	background-color: transparent;	
+	padding: 12px 20px;
+	-webkit-transition: all .35s; 
+	transition: all .35s;
+	border-radius: 0;
+	width: 87px;
+	height: 50px;
+}
 
 .prvi-btn {
 	background-color: #e56c00;
@@ -424,7 +444,32 @@ a:hover {
 	color: white;
 }
 
+/*deo sa banerima naših prijatelja*/
+.baneri p {	
+	font-family: 'Source Serif Pro', serif;
+	color: #f8f5f1;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-align: center;
+	margin-top: 30px;
+	text-shadow:  1px 2px black;
+	
+}
+.baneri img {
+	padding: 20px;
+}
 
+/*copyright*/
+.copyright p {	
+	font-family: 'Source Serif Pro', serif;
+	color: #f8f5f1;
+	font-size: 1.3em;
+	line-height: 1em;
+	text-align: center;
+	margin-top: 20px;
+	font-style: italic;
+	opacity: 0.5;
+}
 
 /* responzivni dizajn za manje ekrane */
 
@@ -486,17 +531,17 @@ a:hover {
 
 @media (max-width:1199px) and (min-width:992px) {
 	.ukratko-text {	
-		margin-top: 80px;
-		padding: 15px;
-	}
-	
-	.ukratko-text2 {	
 		margin-top: 100px;
 		padding: 15px;
 	}
 	
+	.ukratko-text2 {	
+		margin-top: 150px;
+		padding: 15px;
+	}
+	
 	.ukratko-text3 {
-		margin-top: 120px;
+		margin-top: 155px;
 		padding: 15px;
 	}
 	}
@@ -504,21 +549,21 @@ a:hover {
 	
 @media (max-width:991px) and (min-width:768px) {
 	.ukratko-text {	
-		font-size: 1.1em;
+		font-size: 1.3em;
 		line-height: 1.1em;
 		margin-top: 70px;
 		padding: 15px;
 	}
 	
 	.ukratko-text2 {
-		font-size: 1.1em;
+		font-size: 1.3em;
 		line-height: 1.1em;	
 		margin-top: 75px;
 		padding: 15px;
 	}
 	
 	.ukratko-text3 {
-		font-size: 1.1em;
+		font-size: 1.3em;
 		line-height: 1.1em;
 		margin-top: 80px;
 		padding: 15px;
@@ -597,6 +642,7 @@ a:hover {
 }
 
 }
+	
 /* galerija  */
 
 .bojegalerije1 {
