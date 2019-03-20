@@ -597,6 +597,26 @@ a:hover {
 }
 
 }
+/* galerija  */
+
+.bojegalerije1 {
+	color: #FFF;
+}
+
+.tekstgalerije {
+	color: #ae895c
+}
+
+.thumbnail {
+	background-color: #ba8b5670;
+color: #fff;
+}
+
+.caption {color: #fff!important
+}
+
+.caption p {color: #fff!important
+}
 
 @media (max-width:480px){
 
