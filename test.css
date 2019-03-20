@@ -1,6 +1,3 @@
-body {
-  padding: 5px;
-}
 
 #contact {
     margin-top: 30px;
@@ -22,8 +19,8 @@ body {
 .section-header p {
   font-family: 'Raleway' sans-serif;
   font-size: 22px;
-  color: #60646C;
-  font-weight: 600;
+  color: #E0E0E0;
+  font-weight: 500;
   cursor: default;
 }
 
@@ -35,7 +32,7 @@ body {
 
 
 #contact {
-    background: #f7f7f7;
+    background: transparent;
     padding: 80px 0 40px 0;
   }
   
@@ -45,7 +42,7 @@ body {
   }
   
   #contact .info {
-    color: #60646C;
+    color: white;
     margin-top: 50px;
   }
   
@@ -69,7 +66,7 @@ body {
   }
 #adr {
 text-align: center;
-margin-top: 10px;
+margin-top: 30px;
 cursor: default;
 }
 
@@ -78,16 +75,17 @@ cursor: default;
   color: #AD895C;
   font-size: 1.4em;
   
+  
 }
 
 #adr i {
-  color: #60646C;
+  color: #E0E0E0;
   font-size: 2em;
   margin-bottom: 10px;
 }
 
 #costumer-info {
-  margin-top: 40px;
+  margin-top: 30px;
 }
  
 #validationTextarea {
@@ -129,13 +127,13 @@ cursor: default;
 }
 
 #adr i {
-  color: #60646C;
+  color: #E0E0E0;
   font-size: 1.7em;
   margin-bottom: 10px;
 }
 #adr {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: default;
   }
 
@@ -162,13 +160,13 @@ cursor: default;
   }
   
   #adr i {
-    color: #60646C;
+    color: #E0E0E0;
     font-size: 1.7em;
     margin-bottom: 10px;
  }
  #adr {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: default;
   }
 }
