@@ -13,7 +13,7 @@
 		   var $passInput = $("#pass");
   
 		   if($usernameInput.val() !== username || $passInput.val() !== password) {
-				alert("The username or password you've entered is false");
+				alert("Korisničko ime ili lozinka koje ste uneli je pogresna.");
 				$usernameInput.val("");
 				$passInput.val("");
 		   } else {
